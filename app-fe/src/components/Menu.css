@@ -1,0 +1,43 @@
+.menu-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-list li {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-list li:hover {
+    background-color: #eaeaea;
+  }
+  
+  .menu-list li.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  /* Optional: Styles for the dummy form components */
+  .content > div {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
